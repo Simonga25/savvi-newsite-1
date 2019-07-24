@@ -20,12 +20,12 @@
   
   header.masthead {
     position: relative;
-    background: url("../img/black-and-white-blur-business-deal-1496186.jpg") no-repeat center center;
+    background: url("../img/laptop_docs.png") no-repeat right center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
-  
+  /*
   header.masthead .overlay {
     position: absolute;
     background-color: #212529;
@@ -35,7 +35,7 @@
     left: 0;
     opacity: 0.3;
   }
-  
+  */
   h1 {
     font-size: 2rem;
     text-align: ;
@@ -49,12 +49,13 @@
     header.masthead h1 {
       font-size: 3rem;
     }
-
+    
   img.navbar-logo {
     height: 40px;
     max-width: 100%;
-    filter: brightness(0%)
-
+    filter: brightness(0%);
+    margin-left: 25px;
+    margin-right: 35px;
   }
   
   section.product-description {
@@ -72,8 +73,9 @@
   }
   
   @media (min-width: 768px) {
-    .showcase .showcase-text {
+    .showcase-new .showcase-text {
       padding: 7rem;
+      width: 1px;
     }
   }
   
@@ -130,41 +132,46 @@
     left: 0;
     opacity: 0.3;
   }
-  
-  footer.footer {
+
+  .footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
     background: #0a0b0c;
+    color: white;
   }
+
   
+
   .btn-primary {
-     /* background-color: #BDE3E5;  Highlight color*/
-    background-color:#12e5d6;
-    border: none;
+    background-color:#33D5AD;
+    color: white;
+    border: #33D5AD;
   }
-
-  nav.navbar {
-    background: black;
+/*
   }
-
-  a.tel  {
-    position: relative;
-    left: 25rem;
+  a.tel .nav-link {
     color: #12e5d6;
-
   }
-
-  a.btn-sign  {
-    position: relative;
-    left: 12rem;
-    border: 2px solid #12e5d6;
-    color: #12e5d6;
+  */ 
+  .btn-outline-primary  {
+    border: 2px solid #33D5AD;
+    color: #33D5AD;
     padding: 4px 12px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-
+    margin-right: 5px;
   }
+
+
+
+}
+
+#nav-link-2{
+  color: #33D5AD;
+
+}
+
 
   img.black {
     filter: brightness(0%)
@@ -186,7 +193,7 @@
   .showcase-new {
     height: 200px;
     max-width: 100%; 
-    border: 0px solid;
+    border: 2px solid #D3D3D6;
     padding: 10px;
     box-shadow: -15px 15px 	#D3D3D6;
     margin-top: 5rem;
