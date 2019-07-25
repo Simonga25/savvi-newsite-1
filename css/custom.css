@@ -20,7 +20,7 @@
   
   header.masthead {
     position: relative;
-    background: url("../img/laptop_docs.png") no-repeat right center;
+    background: white;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -49,7 +49,8 @@
     header.masthead h1 {
       font-size: 3rem;
     }
-    
+  }
+
   img.navbar-logo {
     height: 40px;
     max-width: 100%;
@@ -140,12 +141,27 @@
     color: white;
   }
 
+  .btn:hover { 
+    background-color: black;
+  }
   
+  .btn-outline-primary:hover{
+  border: black;
+  border: 2px solid black;
+  color: white;
+  padding: 4px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+  }
+
 
   .btn-primary {
     background-color:#33D5AD;
     color: white;
     border: #33D5AD;
+    
   }
 /*
   }
@@ -165,7 +181,7 @@
 
 
 
-}
+
 
 #nav-link-2{
   color: #33D5AD;
@@ -200,6 +216,16 @@
     border-radius: 25px;
   }
 
+  .showcase-new-3 {
+    height: 400px;
+    max-width: 100%; 
+    border: 2px solid #D3D3D6;
+    padding: 10px;
+    box-shadow: -15px 15px 	#D3D3D6;
+    margin-top: 5rem;
+    border-radius: 25px;
+  }
+
   .showcase-phone {
     height: 500px;
     max-width: 100%; 
@@ -222,4 +248,6 @@
     padding: 10px;
   }
 
-
+#green-icon {
+  color: #33D5AD;
+}
